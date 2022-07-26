@@ -1,0 +1,37 @@
+body{
+    background-color: aquamarine;
+}
+
+.num{
+    color: blue;
+}
+
+.top{
+    font-weight: 800;
+    color: black;
+}
+.Outside{
+    background-color: gray;
+    width: 60%;
+    height: 60%;
+    padding: 30px;
+    margin-left: 180px;
+    text-align: center;
+}
+.Inside{
+    display: flex;
+    align-items: row-reverse;
+    justify-content: space-evenly;
+}
+.btn{
+    color: blue;
+    background-color: azure;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 180px%;
+    height: 30px;
+}
+.btn:hover{
+    transform: scale(1.07);
+    cursor: pointer;
+}
